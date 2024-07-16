@@ -160,6 +160,8 @@ class _IptvPageState extends State<IptvPage> {
         // LogicalKeyboardKey.arrowLeft: ()=> iptvStore.currentIptv = iptvStore.getPrevGroupIptv(),
         // LogicalKeyboardKey.arrowRight: ()=> iptvStore.currentIptv = iptvStore.getNextGroupIptv(),
 
+        // 返回首页
+        LogicalKeyboardKey.goHome: () => SystemNavigator.pop();
         // 打开面板
         LogicalKeyboardKey.select: () => _openPanel(),
 
